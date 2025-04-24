@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    /* sets base font size for rem sizing */
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    padding-left: 20px;
+    background-color: #fff;
+    max-width: 1200px;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+h3,
+h4,
+h5 {
+    font-weight: 625;
+    margin-bottom: 3px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #c95602;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+h5 {
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+p {
+    margin-top: 2px;
+}
+
+p+ul {
+    margin-top: -10px;
+}
+
+li {
+    margin-top: -3px;
+}
+
+p+ol {
+    margin-top: -10px;
+}
+
+.jumbotron {
+    padding: 3px;
+    margin: 5px;
+    background: #f60;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.highlight {
+    padding: 3px;
+    margin: 5px;
+    background: rgba(247, 105, 2, 0.4);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.card-body {
+    padding: 5px;
+    margin: 5px;
+    text-align: center
+}
+
+.tab {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+table.sprint {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.sprint th{
+    text-align: center;
+}
+
+table.sprint tr.weekend {
+    background-color: #dddddd;
+}
+
+table.sprint td.vacation {
+    background-color: #a3a3a3;
+}
+
+table.sprint td.center {
+    text-align: center;
+}
+
+col.small {
+    width: 11%;
+}
+
+col.large {
+    width: 26%;
+}
+
+table.sprint td.first {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+}
